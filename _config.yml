@@ -4,16 +4,16 @@
 
 # Site
 title: rTensor
-subtitle:
-description:
+subtitle: 一定会把野猫捡起来吧（偏见）
+description: 
 keywords:
-author: Yuuko
+author:
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://rtensor.net
+url: https://rtensor.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,6 +74,17 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+plugins: hexo-generate-feed
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: false
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim:
+  order_by: -date
+  icon:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -5,5 +5,8 @@ tags:
 mathjax: true
 ---
 
+$$ \mathrm{i} \hbar \frac{\partial}{\partial t} \left|\Psi\right\rangle = \hat{H} \left|\Psi\right\rangle $$
+
+ <!-- more --> 
+
 稍微测试一下……
-$$ \mathrm{i} \hbar \frac{\partial}{\partial t} \left|\Psi\right\rangle = \hat{H} \left|\Psi\right\rangle$$
