@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://rtensor.net
+url: https://blog.rtensor.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -92,7 +92,10 @@ deploy:
 # - type: git
 #   repo: https://github.com/vINyLogY/vINyLogY.github.io.git
 #   branch: master
+# - type: git
+#   message: update
+#   repo: web@rtensor.net:hexo.git
+#   branch: master
 - type: git
-  message: update
-  repo: web@rtensor.net:hexo.git
+  repo: git@github.com:rTensor/rTensor.github.io.git
   branch: master
