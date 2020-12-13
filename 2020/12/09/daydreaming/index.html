@@ -23,15 +23,15 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"blog.rtensor.net","root":"/","images":"/images","scheme":"Muse","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
   </script>
-<meta name="description" content="把从 CHH 意淫来的一些东西放到这里。">
+<meta name="description" content="把从 CHH 意淫来的一些东西放到这里。 祛魅：什么是服务器&#x2F;网络&#x2F;etc.？服务器：一台提供服务（文件储存&#x2F;数值计算&#x2F;网络服务&#x2F;etc.）的机器。 网络：将许多服务器以某些协议联系在一起后构成的整体。 为什么我需要这些东西？事实上很多厂商已经提供了这些东西：文件储存可以用网络硬盘，部署网络服务也可以租用 vps。个人将这些东西实体化放到家里似乎只是引入了更多噪音，同时在付出第一笔硬件投入费之后，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计划：小型网络的部署？">
 <meta property="og:url" content="https://blog.rtensor.net/2020/12/09/daydreaming/index.html">
 <meta property="og:site_name" content="rTensor">
-<meta property="og:description" content="把从 CHH 意淫来的一些东西放到这里。">
+<meta property="og:description" content="把从 CHH 意淫来的一些东西放到这里。 祛魅：什么是服务器&#x2F;网络&#x2F;etc.？服务器：一台提供服务（文件储存&#x2F;数值计算&#x2F;网络服务&#x2F;etc.）的机器。 网络：将许多服务器以某些协议联系在一起后构成的整体。 为什么我需要这些东西？事实上很多厂商已经提供了这些东西：文件储存可以用网络硬盘，部署网络服务也可以租用 vps。个人将这些东西实体化放到家里似乎只是引入了更多噪音，同时在付出第一笔硬件投入费之后，">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-12-09T07:20:53.000Z">
-<meta property="article:modified_time" content="2020-12-09T20:23:53.440Z">
+<meta property="article:modified_time" content="2020-12-10T00:21:52.822Z">
 <meta property="article:tag" content="notes">
 <meta name="twitter:card" content="summary">
 
@@ -133,7 +133,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -146,6 +146,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A5%9B%E9%AD%85%EF%BC%9A%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%8D%E5%8A%A1%E5%99%A8-%E7%BD%91%E7%BB%9C-etc-%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">祛魅：什么是服务器&#x2F;网络&#x2F;etc.？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E9%9C%80%E8%A6%81%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">为什么我需要这些东西？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E4%B8%9C%E8%A5%BF%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">需要什么东西？</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -236,7 +237,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2020-12-10 04:23:53" itemprop="dateModified" datetime="2020-12-10T04:23:53+08:00">2020-12-10</time>
+        <time title="修改时间：2020-12-10 08:21:52" itemprop="dateModified" datetime="2020-12-10T08:21:52+08:00">2020-12-10</time>
       </span>
 
   
@@ -250,6 +251,24 @@
     
     <div class="post-body" itemprop="articleBody">
         <p>把从 CHH 意淫来的一些东西放到这里。</p>
+<h1 id="祛魅：什么是服务器-网络-etc-？"><a href="#祛魅：什么是服务器-网络-etc-？" class="headerlink" title="祛魅：什么是服务器/网络/etc.？"></a>祛魅：什么是服务器/网络/etc.？</h1><p>服务器：一台提供服务（文件储存/数值计算/网络服务/etc.）的机器。</p>
+<p>网络：将许多服务器以某些协议联系在一起后构成的整体。</p>
+<h1 id="为什么我需要这些东西？"><a href="#为什么我需要这些东西？" class="headerlink" title="为什么我需要这些东西？"></a>为什么我需要这些东西？</h1><p>事实上很多厂商已经提供了这些东西：文件储存可以用网络硬盘，部署网络服务也可以租用 vps。<br>个人将这些东西实体化放到家里似乎只是引入了更多噪音，同时在付出第一笔硬件投入费之后，可以不用付每月的服务费。（然而电费仍然是少不了的。）<br>因此，与购买成型服务不同的地方只剩下了所有权和可自定义性，代价则是不稳定性/不成熟性。</p>
+<p>那为什么要考虑这些？因为首先要拥有（。</p>
+<h1 id="需要什么东西？"><a href="#需要什么东西？" class="headerlink" title="需要什么东西？"></a>需要什么东西？</h1><p>需要的硬件规模首先由需求决定。</p>
+<ul>
+<li><p>文件储存：一个提供足够大、可扩展、724可访问、可复原，同时提供高速、廉价、可靠的存储空间。</p>
+<ul>
+<li>显然一种简单的技术实现是分层存储。在这里，多块 NVMe SSD 以类似 raid 1 的方式构成性能层，多块 HDD 以类似 raid 1/5/6 的方式构成容量层。最终实现热数据置入性能层以实现高速读写，同时冷数据自动旋转入容量层以实现在没有读写刷新情况下的可靠性并降低成本。ZFS、ReFS 这类 COW 的文件系统同时也能够实现加速对容量层冷数据的修改并转入性能层。<br>因此，网络内对传输速率的要求应该以 SSD 的顺序读写能力为标杆。考虑到目前 PCIe gen 4 SSD 的典型顺序读写能力为 7 GB/s，因此 10 Gbps 网络并不能完全满足。然而十万兆网络的价格目前是天价……<br>更实际出发的话，IEEE 802.11ax 的合计理论速率也只有 11 Gbps 在这种情况下将网络定为万兆似乎是更理性的选择。<br>由此 SSD 的选择上 PCIe 3.0 x4 的 SSD 已经足够性能层的要求。同时某些 SSD 的缓外速度恰好是 1000+ MB/s……<br>至于 HDD 的选择，典型<br>因此，最小的储存方案是 2x PCIe 3.0 SSD (1TB/2TB) 镜像 + 2x HDD (8TB/16TB) 镜像。MS 建议二者之间比例为 1:4，但穷人表示只能用得起 1:8。<br>另外还需要一个做启动盘的东西。</li>
+</ul>
+</li>
+<li><p>计算<br>  要的话至少志强/霄龙了。不考虑。<br>  ……说起来华擎那块诡异的霄龙胖 ITX 版有点香了。</p>
+</li>
+<li><p>网络服务</p>
+<p>  说白了就是软路由，再加上透明代理、（PT）下载机等等等等，任意 *nix 应该都行。</p>
+<p>  至于假设方式倒是值得考虑：到底要不要虚拟化？<br>  如果是利用好手上现有的东西的话，一台 mac mini 底层跑 mac OS 上面用 parallels 搭建一个 OpenWRT 一个黑群晖就完事了，还能用到苹果高贵的一些独有功能。缺点主要是没有 ECC。<br>  AIO 甚至可以省掉交换机的钱……也方便后期扩展了。</p>
+</li>
+</ul>
 
     </div>
 
